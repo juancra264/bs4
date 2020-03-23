@@ -1,6 +1,6 @@
 # Web - bootstrap4 - bs4
 
-> Python3.7.6 Flask template
+> bootstrap4 sass and jquery
 
 ## Quick Start
 
@@ -22,5 +22,6 @@
 ```
 
 Check the web page:
-https://coursetro.com/posts/code/130/Learn-Bootstrap-4-Final-in-2018-with-our-Free-Crash-Course
-https://www.youtube.com/watch?v=hnCmSXCZEpU&t=1242s
+
+- [Web instructions](https://coursetro.com/posts/code/130/Learn-Bootstrap-4-Final-in-2018-with-our-Free-Crash-Course)
+- [Video](https://www.youtube.com/watch?v=hnCmSXCZEpU&t=1242s)
