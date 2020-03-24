@@ -1,7 +1,7 @@
 {
   "name": "bs4",
   "version": "1.0.0",
-  "description": "",
+  "description": "> bootstrap4 sass and jquery",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,13 @@
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancra264/bs4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juancra264/bs4/issues"
+  },
+  "homepage": "https://github.com/juancra264/bs4#readme"
 }
