@@ -9,8 +9,11 @@
 > sudo apt-get install node
 
 # npm init o install
-> npm install
+> npm install --global sass
 > npm install --global gulp-cli
+
+# In case, we have to change the OS
+> npm rebuild node-sass
 
 # Install dependencies npm
 > npm install gulp browser-sync gulp-sass --save-dev
