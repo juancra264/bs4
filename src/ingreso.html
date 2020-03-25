@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <title>Registro Areas Seguras</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway:400,800"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+    <link
+      href="vendor/datepicker/daterangepicker.css"
+      rel="stylesheet"
+      media="all"
+    />
+
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/main.css" media="all" />
+  </head>
+
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container"></div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>DC BT LATAM</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <div class="card card-5">
+        <div class="card-heading">
+          <h2 class="title">Registro Ingreso</h2>
+        </div>
+        <div class="card-body">
+          <form method="POST">
+            <div class="form-row">
+              <div class="name">Nombre</div>
+              <div class="value">
+                <div class="input-group">
+                  <input class="input--style-5" type="text" name="company" />
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="name">Company</div>
+              <div class="value">
+                <div class="input-group">
+                  <input class="input--style-5" type="text" name="company" />
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="name">Email</div>
+              <div class="value">
+                <div class="input-group">
+                  <input class="input--style-5" type="email" name="email" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="name">Subject</div>
+              <div class="value">
+                <div class="input-group">
+                  <div class="rs-select2 js-select-simple select--no-search">
+                    <select name="subject">
+                      <option disabled="disabled" selected="selected"
+                        >Choose option</option
+                      >
+                      <option>Subject 1</option>
+                      <option>Subject 2</option>
+                      <option>Subject 3</option>
+                    </select>
+                    <div class="select-dropdown"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button class="btn btn--radius-2 btn-primary" type="submit">
+                Ingreso
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+    <!-- Main JS-->
+    <script src="/js/global.js"></script>
+  </body>
+</html>
